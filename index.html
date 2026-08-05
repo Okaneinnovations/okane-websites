@@ -1,4 +1,91 @@
 /* ==========================
+   PHASE 2F - PREMIUM ANIMATIONS
+========================== */
+
+.fade-up{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all .8s ease;
+}
+
+.fade-up.active{
+    opacity:1;
+    transform:translateY(0);
+}
+
+.fade-left{
+    opacity:0;
+    transform:translateX(-40px);
+    transition:all .8s ease;
+}
+
+.fade-left.active{
+    opacity:1;
+    transform:translateX(0);
+}
+
+.fade-right{
+    opacity:0;
+    transform:translateX(40px);
+    transition:all .8s ease;
+}
+
+.fade-right.active{
+    opacity:1;
+    transform:translateX(0);
+}
+
+.zoom-in{
+    opacity:0;
+    transform:scale(.9);
+    transition:all .8s ease;
+}
+
+.zoom-in.active{
+    opacity:1;
+    transform:scale(1);
+}
+
+/* Hover Effects */
+
+.service-card,
+.feature-card,
+.process-card{
+    transition:.35s;
+}
+
+.service-card:hover,
+.feature-card:hover,
+.process-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+/* Image Hover */
+
+img{
+    transition:.4s;
+}
+
+img:hover{
+    transform:scale(1.03);
+}
+
+/* Button Hover */
+
+.btn{
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+/* Smooth Page Scroll */
+
+html{
+    scroll-behavior:smooth;
+}/* ==========================
    SERVICES SECTION
 ========================== */
 
