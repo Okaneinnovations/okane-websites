@@ -1,4 +1,83 @@
 /* ==========================
+   SERVICES SECTION
+========================== */
+
+.services {
+  padding: 100px 8%;
+  background: #f8fafc;
+}
+
+.services .section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.services .section-title h2 {
+  font-size: 2.5rem;
+  color: #0f172a;
+  margin-bottom: 15px;
+}
+
+.services .section-title p {
+  color: #64748b;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 35px 28px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  transition: .35s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 45px rgba(0,0,0,.15);
+}
+
+.service-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #fff;
+  background: linear-gradient(135deg,#0f766e,#14b8a6);
+  margin-bottom: 25px;
+}
+
+.service-card h3 {
+  font-size: 1.4rem;
+  color: #0f172a;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  color: #64748b;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.service-card a {
+  color: #0f766e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.service-card a:hover {
+  color: #14b8a6;
+}/* ==========================
    HERO SECTION
 ========================== */
 
