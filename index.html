@@ -1,4 +1,80 @@
-<!-- Why Choose Us -->
+/* ==========================
+   HERO SECTION
+========================== */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #0b1220 0%, #16213e 100%);
+    color: #fff;
+    padding: 120px 0 80px;
+}
+
+.hero-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 3.2rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #d6d6d6;
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    padding: 14px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background: #00c2ff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+}
+
+.btn-secondary {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background: #fff;
+    color: #0b1220;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 550px;
+    display: block;
+    margin: auto;
+}<!-- Why Choose Us -->
 <section id="why-us" class="why-us section">
   <div class="container">
     <div class="section-title">
